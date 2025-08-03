@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Responsive Portfolio Homepage" />
+  <title>Responsive Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<script defer src="main.js"></script></head>
+
+<body>
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+      <div class="logo">MyBrand</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Hello, I'm Charlie</h1>
+      <p>Front-end Developer & Designer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+    <div class="about-container">
+      <h2>About Me</h2>
+      <p>
+        Hey there! I’m a front-end web developer with a passion for clean design, responsive layouts, and pixel-perfect code. My journey started with curiosity and late-night YouTube tutorials, and now I’m building full-featured websites with accessibility, performance, and great UX in mind.
+      </p>
+      <p>
+        When I’m not coding, I’m likely exploring music production, playing chess, or hiking around Pennsylvania. I believe in lifelong learning, building real things, and helping others break into tech. This homepage is both a playground and a reflection of everything I’ve been practicing.
+      </p>
+      <p>
+        Thanks for stopping by — and if you want to collaborate, feel free to check out my projects below or get in touch!
+      </p>
+    </div>
+  </section>
+
+
+    <section id="projects" class="section projects">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card">
+          <figure class="project-media">
+            <img src="f82488edc1c01c2b5d80.png" alt="Screenshot of Weather App showing current conditions and a 5‑day forecast" loading="lazy" width="1280" height="720">
+            <figcaption class="sr-only">Weather App interface</figcaption>
+          </figure>
+          <div class="project-body">
+            <h3 class="project-title">Weather App</h3>
+            <p class="project-desc">Pulls real-time weather data with dynamic visuals.</p>
+            <div class="project-actions">
+              <a class="project-link" href="#" aria-label="Open Weather App project details">View details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <figure class="project-media">
+            <img src="743607e8ff5830061230.png" alt="Screenshot of Todo List app with tasks, filters, and checkboxes" loading="lazy" width="1280" height="720">
+            <figcaption class="sr-only">Todo List app UI</figcaption>
+          </figure>
+          <div class="project-body">
+            <h3 class="project-title">Todo List</h3>
+            <p class="project-desc">Organize daily tasks with persistent local storage.</p>
+            <div class="project-actions">
+              <a class="project-link" href="#" aria-label="Open Todo List project details">View details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <!-- Project: Admin Dashboard -->
+        <article class="project-card">
+          <figure class="project-media ratio-4x3">
+            <img
+              src="44a5cc671431bbed6c98.png"
+              alt="Screenshot of an admin dashboard with analytics cards, charts, and a data table"
+              loading="lazy">
+            <figcaption class="sr-only">Admin dashboard interface</figcaption>
+          </figure>
+          <div class="project-body">
+            <h3 class="project-title">Admin Dashboard</h3>
+            <p class="project-desc">
+              A responsive admin dashboard layout featuring a sidebar, KPI cards, data table,
+              and activity feed—all built with semantic HTML and modern CSS.
+            </p>
+            <div class="project-actions">
+              <a class="project-link" href="#" aria-label="Open Admin Dashboard project details">View details</a>
+            </div>
+          </div>
+        </article>
+
+
+        <!-- Project 4: Battleship -->
+        <article class="project-card">
+          <figure class="project-media ratio-4x3">
+            <img src="eac0a31277d647e5aee0.png" alt="Screenshot of a web-based Battleship game" loading="lazy">
+            <figcaption class="sr-only">Battleship game interface</figcaption>
+          </figure>
+          <div class="project-body">
+            <h3 class="project-title">Battleship</h3>
+            <p class="project-desc">A fully interactive JavaScript Battleship game with player vs computer mode, grid placement, and hit animations.</p>
+            <div class="project-actions">
+              <a class="project-link" href="#" aria-label="Open Battleship project details">View details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Library -->
+        <article class="project-card">
+          <figure class="project-media ratio-4x3">
+            <img src="5b9cf82752aad4a7799b.png" alt="Screenshot of a digital library app" loading="lazy">
+            <figcaption class="sr-only">Library app interface</figcaption>
+          </figure>
+          <div class="project-body">
+            <h3 class="project-title">Library</h3>
+            <p class="project-desc">A personal library web app to track books, reading status, and favorite genres with local storage persistence.</p>
+            <div class="project-actions">
+              <a class="project-link" href="#" aria-label="Open Library project details">View details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6: Etch-a-Sketch -->
+        <article class="project-card">
+          <figure class="project-media ratio-4x3">
+            <img src="1cacca8c63c5c336e226.png" alt="Screenshot of an Etch-a-Sketch drawing app" loading="lazy">
+            <figcaption class="sr-only">Etch-a-Sketch app interface</figcaption>
+          </figure>
+          <div class="project-body">
+            <h3 class="project-title">Etch-a-Sketch</h3>
+            <p class="project-desc">A browser-based Etch-a-Sketch simulator with grid resizing, color modes, and fun creative tools.</p>
+            <div class="project-actions">
+              <a class="project-link" href="#" aria-label="Open Etch-a-Sketch project details">View details</a>
+            </div>
+          </div>
+        </article>
+
+                <!-- Project 7: Calculator -->
+        <article class="project-card">
+          <figure class="project-media ratio-4x3">
+            <img src="4aad79c6c715db9f5766.png" alt="Screenshot of a web-based calculator" loading="lazy">
+            <figcaption class="sr-only">Calculator app interface</figcaption>
+          </figure>
+          <div class="project-body">
+            <h3 class="project-title">Calculator</h3>
+            <p class="project-desc">A functional on-screen calculator built with JavaScript, supporting basic arithmetic, keyboard input, and responsive design.</p>
+            <div class="project-actions">
+              <a class="project-link" href="#" aria-label="Open Calculator project details">View details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 8: Restaurant Page -->
+        <article class="project-card">
+          <figure class="project-media ratio-4x3">
+            <img src="9f5ad6cc37c3d063b959.png" alt="Screenshot of a restaurant landing page" loading="lazy">
+            <figcaption class="sr-only">Restaurant landing page interface</figcaption>
+          </figure>
+          <div class="project-body">
+            <h3 class="project-title">Restaurant Page</h3>
+            <p class="project-desc">A dynamic restaurant homepage built with HTML, CSS, and JavaScript, featuring tabbed navigation for menu, contact info, and specials.</p>
+            <div class="project-actions">
+              <a class="project-link" href="#" aria-label="Open Restaurant Page project details">View details</a>
+            </div>
+          </div>
+        </article>
+
+
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Get In Touch</h2>
+      <p>Want to collaborate? Reach out and let’s build something great.</p>
+      <a href="mailto:charlie@example.com" class="btn">Email Me</a>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>&copy; 2025 Charlie Tonneslan. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
